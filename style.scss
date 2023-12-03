@@ -12,11 +12,7 @@ $width: 300px;
 $border: 30px;
 $box-shadow:15px 20px 85px #d7c4bd;
 $overflow: hidden;
-$height: 57%;
-$image: url(Snorkeling\ Area\ Misamis\ Occidental\ Aquamarine\ Park.JPG) -170px -76px no-repeat;
-$backgroundSize: 240px;
-$transformText: uppercase;
-$colorText: #ffffff;
+
 
 body {
   font-family: $base-font-family;
@@ -41,22 +37,6 @@ body {
   border-radius: $border;
   box-shadow: $box-shadow;
   overflow: $overflow;
-}
-
-.weather-card .image-section{
-  height: $height;
-  background-image: $image;
-  background-size: $backgroundSize;
-}
-
-.weather-card .image-section .type{
-  text-transform: $transformText;
-  color: $colorText;
-  position: absolute;
-  bottom: 60px;
-  right: 20px;
-  z-index: 9;
-  font-weight: 700;
 }
 
 .weather-symbol {

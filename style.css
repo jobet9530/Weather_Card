@@ -15,25 +15,11 @@ body {
   padding-bottom: 150px; }
 
 .weather-card {
-  height: 57%;
+  height: 450px;
   width: 300px;
   border-radius: 30px;
   box-shadow: 15px 20px 85px #d7c4bd;
   overflow: hidden; }
-
-.weather-card .image-section {
-  height: 57%;
-  background-image: url(Snorkeling\ Area\ Misamis\ Occidental\ Aquamarine\ Park.JPG) -170px -76px no-repeat;
-  background-size: 240px; }
-
-.weather-card .image-section .type {
-  text-transform: uppercase;
-  color: #ffffff;
-  position: absolute;
-  bottom: 60px;
-  right: 20px;
-  z-index: 9;
-  font-weight: 700; }
 
 .weather-symbol {
   display: block;
